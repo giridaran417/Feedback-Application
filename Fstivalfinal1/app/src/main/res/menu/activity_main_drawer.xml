@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/feeds"
+            android:icon="@drawable/feeds"
+            android:title="Feeds" />
+        <item
+            android:id="@+id/graph"
+            android:icon="@drawable/graph"
+            android:title="Graph" />
+        <item
+            android:id="@+id/feedbackform"
+            android:icon="@drawable/form"
+            android:title="Feedback Form" />
+        <item
+            android:id="@+id/signout"
+            android:icon="@drawable/signout"
+            android:title="Sign Out" />
+    </group>
+
+</menu>

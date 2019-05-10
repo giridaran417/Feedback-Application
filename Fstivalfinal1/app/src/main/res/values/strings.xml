@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Fstival</string>
+    <string name="title_activity_list_view">list_view</string>
+    <string-array name="drawerelements">
+        <item>Feeds</item>
+        <item>Graph</item>
+        <item>Feedback Form</item>
+        <item>Sign Out</item>
+    </string-array>
+
+    <string-array name="piechart">
+        <item>GAME DEVELOPMENT</item>
+        <item>ANDROID STUDIO</item>
+        <item>RASPBERRY PI</item>
+        <item>IOT ECE</item>
+        <item>IOT EEE</item>
+        <item>PYRAMID</item>
+        <item>DRUPAL AND WORDPRESS</item>
+        <item>MARIADB</item>
+        <item>NETWORK SECURITY</item>
+    </string-array>
+
+    <string name="opendrawer">opendrawer</string>
+    <string name="closedrawer">closedrawer</string>
+
+    <string-array name="Feed_response">
+        <item>Best</item>
+        <item>Good</item>
+        <item>Average</item>
+    </string-array>
+    <string name="input_link">https://fstival17.000webhostapp.com/getinputnew.php</string>
+    <string name="chart_link">http://fstival17.000webhostapp.com/chartnew.php</string>
+    <string name="feedback_link">http://fstival17.000webhostapp.com/feedbacknew.php</string>
+</resources>

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/scrollview"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.yasir.piechart.stall">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/sname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stall Name          :"
+                style="@style/stallstyle"/>
+
+            <TextView
+                android:id="@+id/snamevalue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Android Studio"
+                style="@style/stallstyle2"
+                android:textSize="14dp"
+                android:layout_toRightOf="@id/sname"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/q1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Depth of Knowledge  :"
+                style="@style/stallstyle"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/best1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          Best       :"
+                style="@style/stallstyle"/>
+
+            <TextView
+                android:id="@+id/bestvalue1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="50"
+                style="@style/stallstyle2"
+                android:layout_toRightOf="@id/best1"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/good1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          Good      : "
+                style="@style/stallstyle"/>
+
+            <TextView
+                android:id="@+id/goodvalue1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="50"
+                style="@style/stallstyle2"
+                android:layout_toRightOf="@id/good1"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/average1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          Average : "
+                style="@style/stallstyle"/>
+
+            <TextView
+                android:id="@+id/averagevalue1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="50"
+                style="@style/stallstyle2"
+                android:layout_toRightOf="@id/average1"/>
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/q2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quality of Content  :"
+                style="@style/stallstyle"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/best2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          Best       :"
+                style="@style/stallstyle"/>
+
+            <TextView
+                android:id="@+id/bestvalue2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="50"
+                style="@style/stallstyle2"
+                android:layout_toRightOf="@id/best2"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/good2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          Good      : "
+                style="@style/stallstyle"/>
+
+            <TextView
+                android:id="@+id/goodvalue2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="50"
+                style="@style/stallstyle2"
+                android:layout_toRightOf="@id/good2"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/average2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          Average : "
+                style="@style/stallstyle"/>
+
+            <TextView
+                android:id="@+id/averagevalue2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="50"
+                style="@style/stallstyle2"
+                android:layout_toRightOf="@id/average2"/>
+
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/q3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Way Of Approach  :"
+                style="@style/stallstyle"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/best3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          Best       :"
+                style="@style/stallstyle"/>
+
+            <TextView
+                android:id="@+id/bestvalue3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="50"
+                style="@style/stallstyle2"
+                android:layout_toRightOf="@id/best3"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/good3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          Good      : "
+                style="@style/stallstyle"/>
+
+            <TextView
+                android:id="@+id/goodvalue3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="50"
+                style="@style/stallstyle2"
+                android:layout_toRightOf="@id/good3"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/average3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          Average : "
+                style="@style/stallstyle"/>
+
+            <TextView
+                android:id="@+id/averagevalue3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="50"
+                style="@style/stallstyle2"
+                android:layout_toRightOf="@id/average3"/>
+
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/q4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Overall Project  :"
+                style="@style/stallstyle"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/best4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          Best       :"
+                style="@style/stallstyle"/>
+
+            <TextView
+                android:id="@+id/bestvalue4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="50"
+                style="@style/stallstyle2"
+                android:layout_toRightOf="@id/best4"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/good4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          Good      : "
+                style="@style/stallstyle"/>
+
+            <TextView
+                android:id="@+id/goodvalue4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="50"
+                style="@style/stallstyle2"
+                android:layout_toRightOf="@id/good4"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/average4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          Average : "
+                style="@style/stallstyle"/>
+
+            <TextView
+                android:id="@+id/averagevalue4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="50"
+                style="@style/stallstyle2"
+                android:layout_toRightOf="@id/average4"/>
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
